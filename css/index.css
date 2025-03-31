@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+html {
+  font-size: 16px;
+}
+.container {
+  position: relative;
+}
+.side-bar {
+  background-color: #fff;
+  position: fixed;
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 10px 20px;
+}
+.main-content {
+  position: absolute;
+  width: calc(100% - 282px);
+  padding: 10px 20px;
+  height: 100vh;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  list-style-type: none;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+}
+ul li img {
+  height: 20px;
+  margin-right: 8px;
+}
+ul li:not(:first-of-type) {
+  margin-top: 17px;
+}
+.add-chat {
+  background-color: black;
+  color: white;
+  padding: 7px 5px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 300;
+  justify-content: center;
+}
+.add-chat img {
+  filter: invert(1);
+}
+.wrapper {
+  width: 920px;
+}
+.grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+.grid {
+  height: 250px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  height: 60px;
+}
+.logo h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.logo span {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #c6c7f8;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.grid img {
+  height: 45px;
+}
+.grid p {
+  font-size: 17px;
+}
+.feature {
+  height: 47px;
+  margin-top: 10px;
+  background-color: #f7f9fb;
+  border-radius: 5px;
+  padding: 4px 8px;
+  line-height: 1.2;
+}
+.feature p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.grid h2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 7px;
+  margin-top: 4px;
+}
+.input-value {
+  margin-top: 100px;
+  background-color: #f7f9fb;
+  width: 650px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+input {
+  padding: 9px 5px;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 15px;
+  outline: none;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+input::placeholder {
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
+}
+.icon3 {
+  position: absolute;
+  right: 3rem;
+}
+.icon1 {
+  height: 27px;
+}
+.icon3 {
+  height: 25px;
+}
+.icon2 {
+  height: 18px;
+}
