@@ -23,6 +23,7 @@ html {
   justify-content: space-between;
   height: 100vh;
   padding: 10px 20px;
+  border-right: 1px solid #d3d3d3;
 }
 .main-content {
   position: absolute;
@@ -40,6 +41,7 @@ ul li {
   font-size: 14px;
   align-items: center;
   display: flex;
+  color: #1c1c1c;
 }
 ul li img {
   height: 20px;
@@ -49,7 +51,7 @@ ul li:not(:first-of-type) {
   margin-top: 17px;
 }
 .add-chat {
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
   padding: 7px 5px;
   border-radius: 7px;
@@ -88,6 +90,7 @@ ul li:not(:first-of-type) {
 .logo h1 {
   font-size: 35px;
   font-weight: 600;
+  color: #1c1c1c;
 }
 .logo span {
   font-size: 12px;
@@ -95,14 +98,13 @@ ul li:not(:first-of-type) {
   background-color: #c6c7f8;
   padding: 3px 6px;
   border-radius: 3px;
+  color: #1c1c1c;
 }
 
 .grid img {
   height: 45px;
 }
-.grid p {
-  font-size: 17px;
-}
+
 .feature {
   height: 47px;
   margin-top: 10px;
@@ -114,12 +116,14 @@ ul li:not(:first-of-type) {
 .feature p {
   font-size: 14px;
   font-weight: 400;
+  color: #1c1c1c;
 }
 .grid h2 {
   font-size: 15px;
   font-weight: 800;
   margin-bottom: 7px;
   margin-top: 4px;
+  color: #1c1c1c;
 }
 .input-value {
   margin-top: 100px;
@@ -144,7 +148,7 @@ input {
 }
 input::placeholder {
   font-size: 13px;
-  color: black;
+  color: #1c1c1c;
   font-weight: 400;
 }
 .icon3 {
